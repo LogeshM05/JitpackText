@@ -54,7 +54,8 @@ android {
 //}
 
 dependencies {
-    implementation 'com.github.LogeshM05:JitpackText:9.0.0'
+//    implementation 'com.github.LogeshM05:JitpackText:9.0.0'
+//    implementation 'com.github.LogeshM05:JitpackText:10.0.0'
 //    implementation 'com.github.LogeshM05:JitpackText:-SNAPSHOT'
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
