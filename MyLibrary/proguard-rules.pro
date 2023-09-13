@@ -33,3 +33,4 @@
 
 -dontusemixedcaseclassnames
 -renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
