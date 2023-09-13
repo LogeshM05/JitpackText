@@ -23,3 +23,10 @@
 -keep public class com.example.mylibrary.LibraryClass {
  *;
 }
+
+-keepclassmembers class com.example.mylibrary.LibraryClass {
+    private *;
+    protected *;
+    public *;
+    void *(...);
+}
