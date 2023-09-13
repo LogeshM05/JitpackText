@@ -10,4 +10,7 @@ public class LibraryClass {
         String deviceId = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
         return deviceId;
     }
+    public void sample(){
+        //empty
+    }
 }
