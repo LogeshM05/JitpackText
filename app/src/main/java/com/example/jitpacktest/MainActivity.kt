@@ -3,7 +3,7 @@ package com.example.jitpacktest
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.mylibrary.LibraryClass
+//import com.example.mylibrary.LibraryClass
 
 class MainActivity : AppCompatActivity() {
     var a = 0;
@@ -12,8 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val dId = LibraryClass().getDeviceId(applicationContext)
-        Log.e("DID", dId)
+//        val dId = LibraryClass().getDeviceId(applicationContext)
+//        Log.e("DID", dId)
 
 
     }
