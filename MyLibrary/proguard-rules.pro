@@ -30,3 +30,6 @@
     public *;
     void *(...);
 }
+
+-dontusemixedcaseclassnames
+-renamesourcefileattribute SourceFile

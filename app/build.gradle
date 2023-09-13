@@ -61,7 +61,7 @@ dependencies {
 //    implementation 'com.github.LogeshM05:JitpackText:16.0.0'
 //    implementation 'com.github.LogeshM05:JitpackText:18.0.0'
 //    implementation 'com.github.LogeshM05:JitpackText:21.0.0'
-//    implementation 'com.github.LogeshM05:JitpackText:22.0.0'
+//    implementation 'com.github.LogeshM05:JitpackText:23.0.0'
     implementation project(':MyLibrary')
     implementation 'androidx.core:core-ktx:1.8.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
