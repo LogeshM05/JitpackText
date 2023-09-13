@@ -47,7 +47,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.LogeshM05'
             artifactId = 'JitpackText'
-            version = '9.0.0'
+            version = '10.0.0'
 
             afterEvaluate {
                 from components.release
