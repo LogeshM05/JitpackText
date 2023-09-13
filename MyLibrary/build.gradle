@@ -49,9 +49,9 @@ dependencies {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.github.LogeshM05'
-            artifactId = 'JitpackText'
-            version = '14.0.0'
+            groupId = 'com.github.karthikrathinavel'
+            artifactId = 'LibraryTest'
+            version = '0.0.1'
 
             afterEvaluate {
                 from components.release
