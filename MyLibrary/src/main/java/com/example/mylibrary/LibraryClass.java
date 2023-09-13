@@ -6,9 +6,9 @@ import android.provider.Settings;
 
 public class LibraryClass {
 
-    private @hide String imageUri = "";
+    private String imageUri = "";
 
-    public @hide String getDeviceId(Context context){
+    public String getDeviceId(Context context){
         @SuppressLint("HardwareIds") String deviceId = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
         return deviceId;
     }
