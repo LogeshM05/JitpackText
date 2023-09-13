@@ -3,6 +3,7 @@ package com.example.jitpacktest
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.example.mylibrary.LibraryClass
 
 class MainActivity : AppCompatActivity() {
     var a = 0;
@@ -11,14 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        a = add1(5,10) as Int;
+        val dId = LibraryClass().getDeviceId(applicationContext)
+        Log.e("DID", dId)
+
 
     }
 
-    private fun add1(i: Int, i1: Int): Any {
-
-        Log.e("added value", a.toString())
-
-        return TODO("Provide the return value")
-    }
 }
