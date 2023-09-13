@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         a = add1(5,10) as Int;
+
     }
 
     private fun add1(i: Int, i1: Int): Any {
