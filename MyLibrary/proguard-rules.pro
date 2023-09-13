@@ -20,4 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.example.mylibrary.LibraryClass
+-keep public class com.example.mylibrary.LibraryClass {
+ *;
+}
