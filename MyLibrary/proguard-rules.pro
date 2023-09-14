@@ -21,7 +21,8 @@
 #-renamesourcefileattribute SourceFile
 
 -keep class com.example.mylibrary.** { *; }
-
--dontusemixedcaseclassnames
--renamesourcefileattribute SourceFile
--keepattributes SourceFile,LineNumberTable
+#
+#-dontusemixedcaseclassnames #for ensure the code use with reflection and dynamic call
+#-renamesourcefileattribute SourceFile
+#-keepattributes SourceFile,LineNumberTable
+-dontshrink

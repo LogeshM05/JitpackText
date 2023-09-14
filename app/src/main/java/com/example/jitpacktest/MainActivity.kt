@@ -13,7 +13,9 @@ class MainActivity : AppCompatActivity() {
         val dId = LibraryClass().getDeviceId(applicationContext)
         Log.e("DID", dId)
 
-        LibraryClass.getAppKey(this)
+//        LibraryClass.getAppKey(this)
+        val appId = LibraryClass.getAppKey(applicationContext);
+        Log.e("appIdGot", appId)
 
     }
 
