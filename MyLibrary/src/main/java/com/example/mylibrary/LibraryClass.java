@@ -41,7 +41,7 @@ public class LibraryClass {
             ApplicationInfo applicationInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128);
             return applicationInfo.metaData != null && applicationInfo.metaData.containsKey(name) ? applicationInfo.metaData.getString(name, (String)null) : null;
         } catch (Exception var3) {
-            ExceptionTracker.track(var3);
+            Log.e("Exception", var3.toString());
             return null;
         }
     }
