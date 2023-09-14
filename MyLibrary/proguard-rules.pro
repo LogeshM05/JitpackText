@@ -20,9 +20,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep public class com.example.mylibrary.* {
- *;
-}
+-keep class com.example.mylibrary.** { *; }
 
 -dontusemixedcaseclassnames
 -renamesourcefileattribute SourceFile
