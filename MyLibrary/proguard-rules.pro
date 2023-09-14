@@ -24,12 +24,12 @@
  *;
 }
 
--keepclassmembers class com.example.mylibrary.LibraryClass {
-    private *;
-    protected *;
-    public *;
-    void *(...);
-}
+#-keepclassmembers class com.example.mylibrary.LibraryClass {
+#    private *;
+#    protected *;
+#    public *;
+#    void *(...);
+#}
 
 -dontusemixedcaseclassnames
 -renamesourcefileattribute SourceFile
