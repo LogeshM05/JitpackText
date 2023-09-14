@@ -36,7 +36,7 @@ public class LibraryClass {
         }
     }
 
-    private static String getMetadata(Context context, String name) {
+    public static String getMetadata(Context context, String name) {
         try {
             ApplicationInfo applicationInfo = context.getPackageManager().getApplicationInfo(context.getPackageName(), 128);
             return applicationInfo.metaData != null && applicationInfo.metaData.containsKey(name) ? applicationInfo.metaData.getString(name, (String)null) : null;
