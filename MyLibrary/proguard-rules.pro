@@ -27,6 +27,6 @@
 #-keepattributes SourceFile,LineNumberTable
 
 #-dontshrink
--dontobfuscate public class SecondClass {
- *;
+-keep class com.example.mylibrary.SecondClass {
+  *;
 }
