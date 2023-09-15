@@ -25,4 +25,4 @@
 #-dontusemixedcaseclassnames #for ensure the code use with reflection and dynamic call
 #-renamesourcefileattribute SourceFile
 #-keepattributes SourceFile,LineNumberTable
--dontshrink
+-dontshrink #enabled dont shrink
