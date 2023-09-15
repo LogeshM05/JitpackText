@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.example.mylibrary.LibraryClass
+import com.example.mylibrary.SecondClass
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,9 +15,10 @@ class MainActivity : AppCompatActivity() {
         Log.e("DID", dId)
 
 //        LibraryClass.getAppKey(this)
-        val appId = LibraryClass.getAppKey(applicationContext);
+        val appId = LibraryClass.getAppKey(applicationContext)
         Log.e("appIdGot", appId)
-
+        val deviceType = SecondClass().getDeviceType(applicationContext)
+        Log.e("deviceType", deviceType)
     }
 
 }
