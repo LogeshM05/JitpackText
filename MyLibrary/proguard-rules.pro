@@ -27,4 +27,6 @@
 #-keepattributes SourceFile,LineNumberTable
 
 #-dontshrink
--dontobfuscate
+-dontobfuscate public class SecondClass {
+ *;
+}
