@@ -10,8 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val dId = LibraryClass().getDeviceId(applicationContext)
-        Log.e("DID", dId)
+//        val dId = LibraryClass().getDeviceId(applicationContext)
+//        Log.e("DID", dId)
 
     }
 
