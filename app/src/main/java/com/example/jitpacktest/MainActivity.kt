@@ -13,8 +13,9 @@ class MainActivity : AppCompatActivity() {
         val dId = LibraryClass().getDeviceId(applicationContext)
         Log.e("DID", dId)
 
-        LibraryClass().sample()
-        Log.e("Updated", "code")
+
+        val appKey = LibraryClass.getAppKey(this)
+        Log.e("Updated", appKey)
 
 
     }
