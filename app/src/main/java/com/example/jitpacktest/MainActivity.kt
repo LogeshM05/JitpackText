@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         Log.e("DID", dId)
 
         LibraryClass().sample()
+        Log.e("Updated", "code")
 
 
     }
