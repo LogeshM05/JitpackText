@@ -20,17 +20,13 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep public class com.example.mylibrary.LibraryClass {
- *;
-}
+-keep class com.example.mylibrary.** { *; }
+#
+#-dontusemixedcaseclassnames #for ensure the code use with reflection and dynamic call
+#-renamesourcefileattribute SourceFile
+#-keepattributes SourceFile,LineNumberTable
 
--keepclassmembers class com.example.mylibrary.LibraryClass {
-    private *;
-    protected *;
-    public *;
-    void *(...);
-}
-
--dontusemixedcaseclassnames
--renamesourcefileattribute SourceFile
--keepattributes SourceFile,LineNumberTable
+#-dontshrink
+#-keepclassmembers public class com.example.mylibrary.* {
+#    <fields>;
+#}

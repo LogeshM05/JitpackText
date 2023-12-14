@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <meta-data android:name="sdk.key" android:value="api_key_sampleKey"/>
     </application>
 
 </manifest>

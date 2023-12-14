@@ -13,11 +13,6 @@ class MainActivity : AppCompatActivity() {
         val dId = LibraryClass().getDeviceId(applicationContext)
         Log.e("DID", dId)
 
-
-        val appKey = LibraryClass.getAppKey(this)
-        Log.e("Updated", appKey)
-
-
     }
 
 }
